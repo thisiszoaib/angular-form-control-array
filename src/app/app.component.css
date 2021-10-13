@@ -1,0 +1,11 @@
+.container {
+    padding: 32px;
+}
+
+.input-row {
+    display: flex;
+}
+
+.margin-top {
+    margin-top: 24px;
+}
