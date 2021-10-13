@@ -4,7 +4,7 @@
 
 <div class="container">
     <h2>Please add as many hobbies as you want below.</h2>
-    <div *ngFor="let hobby of hobbiesArray.controls; index as idx; last as isLast">
+    <div class="input-row" *ngFor="let hobby of hobbiesArray.controls; index as idx; last as isLast">
         <mat-form-field>
             <input matInput [formControl]="hobby">
             <mat-error *ngIf="hobby.errors?.required">Please enter a hobby</mat-error>
